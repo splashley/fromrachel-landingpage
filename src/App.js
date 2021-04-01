@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 
 function App() {
   return (
@@ -9,11 +9,16 @@ function App() {
       </div>
       <div id="text-fe">& I want to be your next frontend developer</div>
       <div id="work-for-you">
-        <div id="work-for-you-left"></div>
-        <div id="work-for-you-right"></div>
+        <div id="work-for-you-left">Why I want to work for you</div>
+        <div id="work-for-you-right">
+          <img
+            src="../assets/image1.jpg"
+            alt="Product from FromRachel's website"
+          ></img>
+        </div>
       </div>
-      <div id="hire-me"></div>
-      <div id="thank-you"></div>
+      <div id="hire-me">Why you should consider hiring me</div>
+      <div id="thank-you">Thank you..</div>
       <footer>Static page created by Ashley Hynes using React.js</footer>
     </div>
   );
